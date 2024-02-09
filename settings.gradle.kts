@@ -12,6 +12,13 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+dependencyResolutionManagement {
+    repositories {
+        maven("https://dl.appnext.com/")
+    }
+}
+
+
 
 rootProject.name = "myTeam"
 include(":app")
